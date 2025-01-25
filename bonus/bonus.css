@@ -1,0 +1,201 @@
+/* To remove default padding and margin so that we can adjust by ourself */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Images should not go more than their containers sizes, so set max-width to 100% */
+
+img {
+  max-width: 100%;
+}
+
+/* set the same font size and font families For all texts in body */
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-wrapper {
+  background-color: black;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+
+.internal-wrapper {
+  width: 546px;
+  padding: 0 10px;
+  margin: 0 auto; /* make the wrapper to the center */
+}
+
+.header-links-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+/* .header-links-wrapper ul li{
+    display: inline-block;
+    gap: 20px;
+} */
+/* d/ce between flex and inline -block */
+.header-links-wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+}
+.header-links-wrapper ul li a:hover {
+  opacity: 1;
+}
+
+.logo-link,
+.search-link,
+.cart-limk,
+.cart-link {
+  /* display: block; ?????????*/
+  width: 18px;
+}
+
+.logo-link {
+  padding: 12px 0 8px;
+}
+
+.search-link {
+  padding: 14px 0 8px;
+}
+
+.cart-link {
+  padding: 12px 0 10px;
+}
+
+/* Header section ends here */
+
+
+/* Second section of main body starts here */
+
+.secondSection{
+    background-image: url(../bonus/images/home/section\ one.PNG);
+    height: 700px;
+    width: 100%;
+    background-size: initial;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.internal-wrapper{
+  width: 580px;
+}
+.buttonBuy button {
+    background-color: #06c; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Make the button elliptical */
+    padding: 10px 30px; /* Adjust padding for size */
+    font-size: 12px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-align: center; /* Center text inside the button */
+    display: inline-block; /* Ensure proper layout */
+    margin: 5px;
+}
+
+.buttonBuy button:hover {
+    background-color: darkblue; /* Darker blue when hovered */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.links-wrapper ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.links-wrapper ul li a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: #06c;
+}
+
+.links-wrapper ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links-wrapper  ul .learnMore a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.links-wrapper  ul .WatchMore a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 10px;
+}
+
+/* section three starts here */
+.sectionThree{
+    background-image: url(../bonus/images/home/seciton\ two.png);
+    height: 700px;
+    width: 100%;
+    background-size: initial;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color:#f5f5f7;
+    text-align: center;
+    /* color: #d4d4d6; */
+    margin: 25px 0;
+    color: black;
+}
+
+.secondSection .description{
+    font-size: medium;
+    font-weight: 700;
+}
+
+.sectionThree .description .price{
+    font-size: medium;
+    font-weight: 600;
+    opacity: 0.1;
+}
+
+
+/* Section four */
+.sectionFour{
+    background-color: #f5f5f7;
+}
+
+.sectionFour .internal-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+}
+
+.sectionFour .leftContent{
+  width: 100%;
+  text-align: center;
+}
+
+.sectionFour .leftContent .buttonandlink .buttonBuy{
+  display: inline-block;
+  /* align-items: center;
+  justify-content: space-between;
+  gap: 5px; */
+}
+
+.sectionFour .leftContent .buttonandlink .links-wrapper{
+  display: inline-block;
+  /* align-items: center;
+  justify-content: space-between;
+  gap: 5px; */
+}
